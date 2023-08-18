@@ -19,6 +19,7 @@ button:focus:not(:focus-visible) {
 }
 .form-control {
   background-color: #24353f;
+  color: white;
 }
 .form-control::placeholder {
   color: white;

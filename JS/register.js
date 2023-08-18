@@ -20,6 +20,7 @@ function validationOnSubmit() {
         }
         accounts.push(account);
         setAccountsInLocalStorage(accounts);
+        clearValues();
     }
     else {
         errorInput.classList.replace("d-none", "d-block");
