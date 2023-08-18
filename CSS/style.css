@@ -1,0 +1,44 @@
+.mainBox,
+nav {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  width: 70%;
+}
+body {
+  background-color: #24353f;
+}
+.navbar-toggler {
+  border: 1px solid gray;
+}
+
+i {
+  color: gray;
+}
+button:focus:not(:focus-visible) {
+  box-shadow: none;
+  border-color: white;
+}
+.form-control {
+  background-color: #24353f;
+}
+.form-control::placeholder {
+  color: white;
+}
+
+.form-control:focus {
+  background-color: #24353f;
+  outline: none;
+  box-shadow: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  color: white;
+}
+section {
+  height: 100vh;
+}
